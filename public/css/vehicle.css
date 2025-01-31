@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fondo negro */
+    color: white; /* Letras blancas */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+header nav ul li a.active, header nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+.vehicle-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+/* Estilo para los íconos en las tarjetas */
+.vehicle-card.car::before {
+    content: "🚗";
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.vehicle-card.moto::before {
+    content: "🏍️";
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Estilos para la lista de vehículos */
+#vehicles-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: yellow; /* Fondo amarillo */
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%; /* Ancho de 40% del contenedor */
+    margin: 5px auto; /* Centramos horizontalmente */
+}
+
+button:hover {
+    background-color: red; /* Hover en rojo */
+}
