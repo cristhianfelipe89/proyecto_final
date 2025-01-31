@@ -1,4 +1,4 @@
-const url = 'http://localhost:4000/api/admin/usuarios';
+const url = 'https://proyecto-final-sandy-seven.vercel.app/api/admin/usuarios';
 
 document.addEventListener('DOMContentLoaded', () => {
   const token = localStorage.getItem('token'); // Obtener el token almacenado en el localStorage
