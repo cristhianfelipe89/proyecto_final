@@ -1,5 +1,5 @@
 // frontend/public/js/register.js
-const url='https://proyecto-final-jade.vercel.app/api/auth/registro';
+const url='https://proyecto-final-eta-two.vercel.app/api/auth/registro';
 
 //const url='http://localhost:4000/api/auth/registro';
 

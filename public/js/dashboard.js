@@ -1,4 +1,4 @@
-const url = 'https://proyecto-final-jade.vercel.app/api/admin/usuarios';
+const url = 'https://proyecto-final-eta-two.vercel.app/api/admin/usuarios';
 
 //const url = 'https://localhost:4000/api/admin/usuarios';
 

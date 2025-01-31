@@ -1,4 +1,4 @@
-const apiUrl = 'https://proyecto-final-jade.vercel.app/api/vehicles'; // URL de la API para los vehículos
+const apiUrl = 'https://proyecto-final-eta-two.vercel.app/api/vehicles'; // URL de la API para los vehículos
 //const apiUrl = 'http://localhost:4000/api/vehicles'; // URL de la API para los vehículos
 
 // Obtener el token JWT desde el almacenamiento local
