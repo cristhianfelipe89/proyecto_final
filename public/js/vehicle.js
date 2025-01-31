@@ -1,4 +1,5 @@
-const apiUrl = 'https://proyecto-final-sandy-seven.vercel.app/api/vehicles'; // URL de la API para los vehículos
+//const apiUrl = 'https://proyecto-final-sandy-seven.vercel.app/api/vehicles'; // URL de la API para los vehículos
+const apiUrl = 'http://localhost:4000/api/vehicles'; // URL de la API para los vehículos
 
 // Obtener el token JWT desde el almacenamiento local
 const token = localStorage.getItem('token');
