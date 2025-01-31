@@ -2,7 +2,7 @@
   "name": "mymocar",
   "version": "0.0.1",
   "description": "Proyecto Final del Bootcamp DWFS104",
-  "main": "app.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js"
