@@ -1,7 +1,6 @@
 // backend/src/models/User.js
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs'; // importa o bcrypt para criptografar la contraseña
-import { kMaxLength } from 'buffer';
 
 const UserSchema = new mongoose.Schema({
     usuario: { type: String, required: true, unique: true },

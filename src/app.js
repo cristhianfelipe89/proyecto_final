@@ -5,7 +5,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes.js';
 import { ConectarDB } from './config/database.js';
-import  router  from './routes/itemesroute.js';
 import adminRoutes from './routes/adminRoutes.js'; // Aquí importas las rutas de admin
 import path from 'path';
 import { fileURLToPath } from 'url';
