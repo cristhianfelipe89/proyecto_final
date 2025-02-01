@@ -1,10 +1,10 @@
-// backend/src/server.js
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes.js';
 import { ConectarDB } from './config/database.js';
+//import  router  from './routes/itemesroute.js';
 import adminRoutes from './routes/adminRoutes.js'; // Aquí importas las rutas de admin
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -35,7 +35,7 @@ ConectarDB();
 
 // Rutas
 app.use('/api/auth', authRoutes);
-app.use('/api/items', router);
+//app.use('/api/items', router); // Si `router` no está definido, esto podría causar problemas.
 app.use('/api/vehicles', vehi);
 
 // Rutas de administración (solo admin puede acceder a estas)
